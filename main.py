@@ -65,7 +65,7 @@ class CoffeeBot:
                 'sections': [{
                     'widgets': [
                     {
-                        'textParagraph': { 'text': '{}'.format(' '.join(self.members)) }
+                        'textParagraph': { 'text': '{}명: {}'.format(len(self.members), ' '.join(self.members)) }
                     }, {
                         'buttons': buttons
                     }]
